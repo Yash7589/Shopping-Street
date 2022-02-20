@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+font-family: 'Poppins', sans-serif;
+}
+.logo-image{
+    width: 50px;
+    height: 50px;
+}
+.cart-image{
+    width: 50px;
+    height: 50px;
+}
+header{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+.logo-container,.nav-links,.cart{
+    display: flex;
+}
+.logo{
+    font-weight: 400px;
+    margin: 10 px 5px 5px 5px;
+}
+.logo-container{
+    flex: 1;
+
+}
+nav{
+    flex: 2;
+
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.cart{
+    flex: 1;
+    justify-content: flex-end;
+    cursor: pointer;
+   
+}
+.presentation{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items:center ;
+    flex: ;
+
+}
+.img{
+    display: flex;
+}
+.cover img{
+    height: 50vh;
+
+}
+.left img{
+    height: 10vh;
+    opacity: 0.5;
+    margin-top: 130px;
+    margin-right: -60px;
+    cursor: pointer;
+    align-items: flex-start;
+}
+.right img{
+    height: 10vh;
+    opacity: 0.5;
+    margin-top: 130px;
+    margin-left: 40px;
+    margin-right: 300px;
+    cursor: pointer;
+}
+.introduction{
+    flex:1;
+}
+.intro-text h1{
+    font-size: 40px;
+    color: rgb(20, 77, 147);
+
+}
+.intro-text h3{
+    font-size: 20px;
+    color:#5f5f79
+}
+.intro-text h5{
+    color: rgb(8, 15, 59);
+    margin-top: 5px;
+}
+.intro-text p{
+    margin-top: 5px;
+    color: rgb(25, 111, 164);
+    font-size:15px;
+}
+.rs,.rsat,.discount{
+    display: inline;
+    margin: 0px 5px 0px 5px;
+}
+.rs{
+    font: bold;
+}
+.rsat{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.discount{
+    color: green;
+}
+
+.colour{
+    margin-top: 5px;
+}
+.colour h5{
+    margin: 5px;
+    color: #5f5f79;
+    font:bold;
+    display: inline;
+}
+.button{
+    padding-top: 50px;
+}
+.button-add{
+    border:none;
+    background: transparent;
+    color:black;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    font: bold;
+    background-color: rgb(211, 191, 112);
+}
+.button-buy{
+    color:black;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    font: bold;
+    background-color: rgb(7, 164, 38);
+    margin-left: 40px;
+    border: 2px solid rgba(9, 56, 54, 0.564);
+
+}
+.button-add:hover{
+    color: antiquewhite;
+    background-color: rgba(9, 56, 54, 0.564);
+}
+.button-buy:hover{
+    color: antiquewhite;
+    background-color: rgba(9, 56, 54, 0.564);
+}
+.img{
+    flex: 1;
+}
+.cover{
+    margin-left: 100px;
+}
+.specification{
+    width: 90%;
+    margin: auto;
+}
+.first,.second{
+    border: 2px solid black;
+    border-right:none ;
+    border-left:none;
+    text-align: center;
+    padding: 10px 150px 10px 150px;
+}
+.first{
+    background-color:rgba(255, 228, 196, 0.381);
+}
+.spec{
+    margin-bottom: 10px;
+    color: #5f5f79;
+
+}
+.discription{
+    width: 90%;
+    margin: auto;
+}
+.product{
+    margin: 20px 0px 20px 0px;
+    color: #5f5f79;
+}
+.disc{
+    font: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.footer{
+    padding: 30px 0px 30px 0px;
+    background-color: #5f5f79;
+    color: aliceblue;
+}
+.copy,.cright{
+    margin: 50px 20px 50px 100px;
+    display:inline ;
+}
+.copy{
+    margin-right: 300px;
+}
+.cright{
+    margin-right: 100px;
+}
+@media  screen and (max-width:1377px) {
+.nav-link{
+    font-size: 10px;
+}
+.logo-image{
+    height: 30px;
+}
+.logo{
+    font-size: 10px;
+}
+.cart-image{
+    height: 30px;
+}
+.cover img{
+    height: 40vh;
+}
+.left img,.right img{
+    height: 8vh;
+}
+.intro-text h1{
+    font-size: 25px;
+}
+.intro-text h3{
+    font-size: 15px;
+}
+.intro-text p{
+    font-size: 10px;
+}
+.button-add,.button-buy{
+    width: 80px;
+    height: 40px;
+}
+.copy{
+    margin-right: 100px;
+}
+@media screen and (max-width:1124px){
+    .presentation{
+        flex-direction: column-reverse;
+    }
+    .img{
+        margin:5px 0px 60px 280px;
+        
+    }
+    .introduction{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .spec{
+        font-size: 15px;
+    }
+    .specification h4{
+        font-size: 13px;
+    }
+    .first,.second{
+        font-size: 10px;
+        font: bold;
+    }
+    .product{
+        font-size: 15px;
+    }
+    .disc{
+        font-size: 12px;
+        font: bold;
+    }
+    .copy,.cright{
+        font-size: 15px;
+    }
+    .copy{
+        margin-right:-10px
+    }
+}
+@media screen and (max-width:890px) {
+    .copy,.cright{
+        font-size: 10px;
+    }
+    .copy{
+        margin-left: 20px;
+    }
+    .cright{
+        margin-left: 50px;
+    }
+    .first,.second{
+        padding: 10px 50px 10px 50px;
+    }
+    .disc{
+        font-size: 10px;
+    }
+    
+}
+@media  screen and (max-width:618px)  {
+    .copy,.cright{
+        font-size: 8px;
+    }
+    .copy{
+        margin-left: 10px;
+    }
+    .cright{
+        margin-right: 30px;
+    }
+    .first,.second{
+        padding:10px 10px 10px 10px;
+    }    
+}
